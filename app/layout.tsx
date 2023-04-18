@@ -32,9 +32,9 @@ export default async function RootLayout({
         {/* <Modal actionLabel='Submit' isOpen title='Login'/> */}
         {/* <OnlyClient> */}
           <ToastProvider/>
-          <RentModal/>
           <LoginModal/>
           <RegisterModal/>
+          <RentModal/>
           <Navbar currentUser={currentUser}/>
         {/* </OnlyClient> */}
         {children}
