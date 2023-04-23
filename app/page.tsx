@@ -44,3 +44,5 @@ const Home = async({searchParams}: HomeParams)=> {
     </Container>
   )
 }
+
+export default Home;
