@@ -7,6 +7,7 @@ import './globals.css'
 import ToastProvider from './providers/ToastProvider'
 import getCurrentUser from './actions/getCurrentUser'
 import RentModal from './components/modal/RentModal'
+import SearchModal from './components/modal/SearchModal'
 // import OnlyClient from './components/OnlyClient'
 
 export const metadata = {
@@ -35,6 +36,7 @@ export default async function RootLayout({
           <LoginModal/>
           <RegisterModal/>
           <RentModal/>
+          <SearchModal/>
           <Navbar currentUser={currentUser}/>
         {/* </OnlyClient> */}
         <div className='pb-20 pt-28'>
