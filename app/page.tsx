@@ -17,6 +17,7 @@ const Home = async({searchParams}: HomeParams)=> {
       <EmptyState showReset/>
     )
   }
+
   return (
     // <div className="text-rose-500 text-2xl">Hello Airbnb</div>
     <Container>
