@@ -7,11 +7,9 @@ import { Range } from 'react-date-range';
 import { formatISO } from 'date-fns';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-// import useSearchModal from "@/app/hooks/useSearchModal";
 import useSearchModal from '@/app/hooks/useSearchModals';
 
 import Modal from "./Modal";
-// import Calendar from "../inputs/Calendar";
 import Calender from '../inputs/Calender';
 import Counter from "../inputs/Counter";
 import CountrySelect, { 
