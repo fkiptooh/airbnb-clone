@@ -21,6 +21,8 @@ model User {
   updatedAt DateTime @updatedAt
   favouriteIds String[] @db.ObjectId
 
+  role Role @default(USER)
+
   accounts Account[]
   listings Listing[]
   reservations Reservation[]
@@ -73,4 +75,9 @@ model Reservation {
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
   listing Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+}
+
+enum Role {
+  ADMIN
+  USER
 }
