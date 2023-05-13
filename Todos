@@ -1,0 +1,3 @@
+1. Deploy the application .
+2. Integrate a payment service .
+3. Install next-json package to handle date issues in Prisma .
